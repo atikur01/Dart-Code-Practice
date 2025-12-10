@@ -17,6 +17,7 @@ void task1_variables() {
 
   // var (changeable, type inferred)
   var a = 10; // int inferred
+   // <-- Compile-time error: A value of type 'String' can't be assigned to a variable of type 'int'.
   print('var a = $a (type inferred as int)');
 
   // final (run-time constant — value একবার সেট করলে পরিবর্তন করা যাবে না)
